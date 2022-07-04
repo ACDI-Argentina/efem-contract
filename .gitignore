@@ -1,0 +1,15 @@
+node_modules
+artifacts/*
+!artifacts/ERC20.json
+!artifacts/Admin.json
+!artifacts/RoleConstants.json
+!artifacts/ExchangeRateProvider.json
+!artifacts/RifTokenMock.json
+!artifacts/DocTokenMock.json
+!artifacts/MoCStateMock.json
+!artifacts/RoCStateMock.json
+.cache
+cache
+dist
+ipfs.cmd
+package-lock.json
