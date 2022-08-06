@@ -2,7 +2,7 @@ node_modules
 artifacts/*
 !artifacts/ERC20.json
 !artifacts/Admin.json
-!artifacts/RoleConstants.json
+!artifacts/EfemConstants.json
 !artifacts/ExchangeRateProvider.json
 !artifacts/RifTokenMock.json
 !artifacts/DocTokenMock.json

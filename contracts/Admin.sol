@@ -3,14 +3,14 @@ pragma experimental ABIEncoderV2;
 
 import "@aragon/os/contracts/apps/AragonApp.sol";
 import "@aragon/os/contracts/acl/ACL.sol";
-import "./RoleConstants.sol";
+import "./EfemConstants.sol";
 
 /**
  * @title Administración de Usuarios
  * @author ACDI
  * @notice Contrato de Administración de Usuarios.
  */
-contract Admin is AragonApp, RoleConstants {
+contract Admin is AragonApp, EfemConstants {
     address private proxy;
     address private adminUser;
 
