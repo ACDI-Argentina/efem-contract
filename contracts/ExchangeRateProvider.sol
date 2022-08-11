@@ -11,9 +11,9 @@ contract ExchangeRateProvider {
     using SafeMath for uint256;
     IMoCState internal moCState;
     IRoCState internal roCState;
-    address RBTC;
-    address RIF;
-    address DOC;
+    address public RBTC;
+    address public RIF;
+    address public DOC;
     uint256 DOC_PRICE;
 
     //array of allowed tokens? //require comprobaria que se encuentre en el listado
